@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/big_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/title_padding"
+        android:text="@string/title"
+        android:textSize="@dimen/title_tsize"
+        android:gravity="center_horizontal" />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/big_title"
+        android:text="@string/block1"
+        android:textSize="@dimen/block1_tsize"
+        android:padding="@dimen/block1_padding"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:hint="@string/hint1"
+        android:padding = "@dimen/edit_name_padding"
+        android:inputType="text"
+        android:importantForAutofill="no" tools:targetApi="o" />
+
+
+    <TextView
+        android:id="@+id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/block2_padding"
+        android:text="@string/block2"
+        android:layout_below="@id/edit_name"
+        android:textSize="@dimen/block2_tsize" />
+
+    <RadioGroup
+        android:id="@+id/choose_sex"
+        android:layout_below="@id/edit_name"
+        android:layout_toEndOf="@id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/cfemale"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize = "@dimen/cfemale_tsize"
+            android:padding = "@dimen/cfemale_padding"
+            android:text="@string/cfemale" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cmale"
+            android:textSize = "@dimen/male_tsize"
+            android:padding = "@dimen/male_padding"
+            android:text="@string/cmale"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/age"
+        android:text = "@string/block3"
+        android:layout_below = "@id/choose_sex"
+        android:textSize = "@dimen/age_tsize"
+        android:padding = "@dimen/age_padding"/>
+
+    <EditText
+        android:id = "@+id/edit_age"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_below = "@id/age"
+        android:hint = "@string/edit_age_hint"
+        android:padding = "@dimen/edit_age_padding"
+        android:inputType = "numberDecimal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/iheight"
+        android:text = "@string/iheight_text"
+        android:layout_below = "@id/edit_age"
+        android:textSize = "@dimen/iheight_tsize"
+        android:padding = "@dimen/iheight_padding"/>
+
+    <EditText
+        android:id = "@+id/edit_iheight"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_below = "@id/iheight"
+        android:hint = "@string/edit_iheight_hint"
+        android:padding = "@dimen/edit_iheight_padding"
+        android:inputType = "numberDecimal" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/iweight"
+        android:text = "@string/iweight_text"
+        android:layout_below = "@id/edit_iheight"
+        android:textSize = "@dimen/iweight_tsize"
+        android:padding = "@dimen/iweight_padding"/>
+
+    <EditText
+        android:id = "@+id/edit_iweight"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_below = "@id/iweight"
+        android:hint = "@string/edit_iweight_hint"
+        android:padding = "@dimen/edit_iweight_padding"
+        android:inputType = "numberDecimal" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="@dimen/clear_width"
+        android:layout_height="match_parent"
+        android:layout_below = "@id/edit_iweight"
+        android:textSize = "@dimen/clear_tsize"
+        android:padding = "@dimen/clear_padding"
+        android:text="@string/clear_t" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="@dimen/submit_width"
+        android:layout_height="match_parent"
+        android:layout_below = "@id/edit_iweight"
+        android:layout_alignParentRight = "true"
+        android:textSize = "@dimen/submit_tsize"
+        android:padding = "@dimen/submit_padding"
+        android:text="@string/submit_t" />
+
+
+</RelativeLayout>

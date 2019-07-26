@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Android hw1</string>
+    <string name="title">BMR計算機</string>
+    <string name="block1">姓名 :</string>
+    <string name="hint1">輸入名字</string>
+    <string name="block2">性別 :</string>
+    <string name="block3">年齡 :</string>
+    <string name="cmale">男</string>
+    <string name="cfemale">女</string>
+    <string name="edit_age_hint">輸入年齡</string>
+
+    <string name="iheight_text">身高 :</string>
+    <string name="edit_iheight_hint">輸入身高</string>
+
+    <string name="iweight_text">體重 :</string>
+    <string name="edit_iweight_hint">輸入體重</string>
+
+    <string name="clear_t">清除</string>
+    <string name="submit_t">送出</string>
+    <string name="title_activity_page2">page2</string>
+
+    <string name="page2_output_bmr"> </string>
+    <string name="back_to_input_t">返回</string>
+
+    <string name="create_button_text">CREATE</string>
+
+    <string name="blank"> </string>
+
+    <string name="create_text">CREATE</string>
+
+    <string name="name_text">NAME</string>
+    <string name="gender_text">GENDER</string>
+    <string name="height_text">HEIGHT</string>
+    <string name="weight_text">WEIGHT</string>
+    <string name="age_text">AGE</string>
+    <string name="bmr_text">BMR</string>
+
+    <string name="database_out_text">output here</string>
+    <string name="check_data_back_text">BACK</string>
+    <string name="check_data_edit_text">EDIT</string>
+    <string name="check_data_delete_text">DELETE</string>
+    <string name="check_data_OK_text">OK</string>
+
+    <string-array name="choose_sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string name = "out_page_bmi">BMI :</string>
+    <string name = "out_page_bmr">BMR :</string>
+
+</resources>

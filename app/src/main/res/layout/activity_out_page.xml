@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".out_page">
+
+    <TextView
+        android:id="@+id/out_page_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/block1"
+        android:textSize = "@dimen/out_page_tsize"
+        android:padding = "@dimen/out_page_padding"/>
+
+    <TextView
+        android:id="@+id/out_page_out_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/out_page_name"
+        android:text="@string/blank"
+        android:textSize = "@dimen/out_page_tsize"
+        android:padding = "@dimen/out_page_padding"/>
+
+    <TextView
+        android:id="@+id/out_page_bmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/out_page_name"
+        android:text="@string/out_page_bmi"
+        android:textSize = "@dimen/out_page_tsize"
+        android:padding = "@dimen/out_page_padding"/>
+
+    <TextView
+        android:id="@+id/out_page_out_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blank"
+        android:layout_toRightOf="@id/out_page_bmi"
+        android:layout_below = "@id/out_page_out_name"
+        android:textSize = "@dimen/out_page_tsize"
+        android:padding = "@dimen/out_page_padding"/>
+
+    <TextView
+        android:id="@+id/out_page_bmr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/out_page_bmr"
+        android:layout_below = "@id/out_page_bmi"
+        android:textSize = "@dimen/out_page_tsize"
+        android:padding = "@dimen/out_page_padding"/>
+
+    <TextView
+        android:id="@+id/out_page_out_bmr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blank"
+        android:layout_toRightOf="@id/out_page_bmr"
+        android:layout_below = "@id/out_page_out_bmi"
+        android:textSize = "@dimen/out_page_tsize"
+        android:padding = "@dimen/out_page_padding"/>
+
+    <Button
+        android:id="@+id/back_to_main"
+        android:layout_width="@dimen/check_data_buttonwidth"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_input_t"
+        android:textSize = "@dimen/back_to_input_tsize"
+        android:padding = "@dimen/back_to_input_padding"
+        android:layout_alignParentBottom= "true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/fab_margin"/>
+
+
+</RelativeLayout>

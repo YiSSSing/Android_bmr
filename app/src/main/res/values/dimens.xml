@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="title_padding">12dp</dimen>
+    <dimen name="title_tsize">32sp</dimen>
+
+    <dimen name="block1_padding">10dp</dimen>
+    <dimen name="block1_tsize">24sp</dimen>
+
+    <dimen name="block2_padding">10dp</dimen>
+    <dimen name="block2_tsize">24sp</dimen>
+
+    <dimen name="cfemale_tsize">20sp</dimen>
+    <dimen name="cfemale_padding">8dp</dimen>
+
+    <dimen name="male_tsize">20sp</dimen>
+    <dimen name="male_padding">8dp</dimen>
+
+    <dimen name="edit_name">10dp</dimen>
+
+    <dimen name="age_tsize">24sp</dimen>
+    <dimen name="age_padding">10dp</dimen>
+
+    <dimen name="edit_name_padding">10dp</dimen>
+
+    <dimen name="edit_age_padding">10dp</dimen>
+
+    <dimen name="iheight_tsize">24sp</dimen>
+    <dimen name="iheight_padding">10dp</dimen>
+
+    <dimen name="edit_iheight_padding">10dp</dimen>
+
+    <dimen name="iweight_tsize">24sp</dimen>
+    <dimen name="iweight_padding">10dp</dimen>
+
+    <dimen name="edit_iweight_padding">10dp</dimen>
+
+    <dimen name="clear_tsize">28sp</dimen>
+    <dimen name="clear_padding">12dp</dimen>
+
+    <dimen name="submit_tsize">28sp</dimen>
+    <dimen name="submit_padding">12dp</dimen>
+
+    <dimen name="clear_width">120dp</dimen>
+    <dimen name="submit_width">120dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name = "out_page_tsize">32sp</dimen>
+    <dimen name = "out_page_padding">18dp</dimen>
+
+    <dimen name = "back_to_input_tsize">32sp</dimen>
+    <dimen name = "back_to_input_padding">24dp</dimen>
+
+
+    <dimen name = "create_button_top">15dp</dimen>
+    <dimen name = "create_button_width">260dp</dimen>
+    <dimen name = "create_button_tsize">36sp</dimen>
+    <dimen name = "create_button_padding">12dp</dimen>
+
+
+    <dimen name = "showbox_tag_data_padding">18dp</dimen>
+    <dimen name = "showbox_tag_tsize">24sp</dimen>
+    <dimen name = "showbox_data_tsize">20sp</dimen>
+
+    <dimen name = "check_data_button_padding">20dp</dimen>
+    <dimen name = "check_data_button_tsize">24sp</dimen>
+    <dimen name = "check_data_buttonwidth">150dp</dimen>
+
+    <dimen name = "border_padding">10dp</dimen>
+    <dimen name = "show_name_tsize">18sp</dimen>
+    <dimen name = "show_name_padding">12dp</dimen>
+
+    <dimen name = "back_margin">20dp</dimen>
+
+
+</resources>
